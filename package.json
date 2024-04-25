@@ -1,5 +1,5 @@
 {
-  "name": "simple-bil-number-guessing-project",
+  "name": "@bilawalhussain/number-guessing-game-project",
   "version": "1.0.1",
   "description": "This cli based numbers guessing game",
   "main": "index.js",
