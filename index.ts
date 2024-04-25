@@ -5,8 +5,9 @@ let numberToGuess = Math.floor(Math.random() * 5) +1;  // Generate a random numb
 let attempts = 0;
 
 async function guessNumber() {
-  console.log('\n\t\x1b[34m\x1b[1m Bilawal Hussain\'s Number Guessing Game \x1b[0m');
-  console.log('\t-----------------------------------------');
+  console.log('\n\t\x1b[41m----------------------------------------\x1b[0m');
+  console.log('\t\x1b[34m\x1b[1m Bilawal Hussain\'s Number Guessing Game \x1b[0m');
+  console.log('\t\x1b[41m----------------------------------------\x1b[0m');
 
   const answer = await inquirer.prompt({
     type: 'number',
